@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    --white: #F5F5F5;
+    font-family: "Ubuntu", sans-serif;;
+}
+
+.fullSidebar > a {
+    text-decoration: none;
+    color: var(--white)
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+/* header */
+
+#logo {
+    height: 60px;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header > button {
+    position: relative;
+    padding: 6px;
+    width: 60px;
+    border-radius: 17px;
+    border: none;
+    left: 77vw;
+}
+
+header > i {
+    position: relative;
+    font-size: 18px;
+    left: 75.5vw;
+    color: var(--white);
+}
+
+
+
+
+/* full sidebar */
+
+#iconNav {
+    width: 90px;
+    height: 90px;
+    background-color: var(--white);
+    margin-top: 28px;
+    margin-bottom: 26px;
+    border-radius: 50px;
+
+    position: absolute;
+    left: 30%;
+}
+
+#iconNav:hover{
+    cursor: pointer;
+}
+
+.fullSidebar > a {
+    position: relative;
+    top: 151px;
+    left: 7px;
+    font-size: 15px;
+}
+
+.fullSidebar > .bi-list {
+    position: relative;
+    left: 195px;
+    top: 10px;
+}
+
+.bi-list {
+    font-size: 21px;
+}
+
+.bi-list:hover {
+    cursor: pointer;
+}
+
+.fullSidebar, .smallSidebar, header {
+    
+    background-color: #2182BF;
+}
+
+.fullSidebar {
+    color: var(--white);
+    height: 90vh;
+    margin-top: 10vh;
+    width: 220px;
+    border-top: 0.25px solid var(--white);
+
+    position: fixed;
+    
+}
+
+
+
+
+/* small sidebar */
+
+.smallSidebar {
+    position: fixed;
+    margin-top: 10vh;
+
+    color: var(--white);
+    height: 90vh;
+    width: 60px;
+    border-top: 0.25px solid var(--white);
+}
+
+.smallSidebar > i {
+    position: relative;
+    left: 33%;
+    top: 8px;
+}
+
+
+
+
+/* main section */
+
+main {
+    position: relative;
+    z-index: -1;
+    left: 125px;
+    top: 15vh;
+}
+
+
+
+

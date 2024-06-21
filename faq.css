@@ -1,0 +1,34 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    --black: #4B4A4A;
+    --white: #F5F5F5;  
+}
+
+#input {
+    margin-top: 45px;
+    margin-bottom: 33px;
+    border: 1px solid var(--black);
+    border-radius: 17px;
+    width: 600px;
+
+    padding: 6px;
+}
+
+#input:hover {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border: none;
+}
+
+.questionContainer {
+    margin-bottom: 30px;
+    max-width: 80vw;
+}
+
+.questionContainer > h2 {
+    margin-bottom: 15px;
+}
+
